@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #588bbb;
+    background-color: #b39b9b;
     color: #333;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #0d3d70;
-    color: white;
+    background-color: #2a261f;
+    color: rgb(240, 240, 240);
     padding: 10px;
     text-align: center;
 }
@@ -15,7 +15,7 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: rgb(105, 79, 79);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -24,5 +24,29 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #653d3d;
+}
+
+button {
+    background-color: #355e3f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
 }
