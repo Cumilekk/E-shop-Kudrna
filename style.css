@@ -50,3 +50,19 @@ footer{
     margin-top: 20px;
     padding: 10px;
 }
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
